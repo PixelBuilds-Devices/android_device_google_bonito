@@ -34,4 +34,13 @@
      For devices with sensors on the back of the device, this corresponds to the location on the
      screen directly in front of the sensor. -->
     <dimen name="physical_fingerprint_sensor_center_screen_location_y">500px</dimen>
+
+    <!-- Height of quick settings tiles -->
+    <dimen name="qs_tile_height">77dp</dimen>
+
+    <!-- The height of the quick settings footer that holds the pagination dots and edit button -->
+    <dimen name="qs_footer_height">30dp</dimen>
+        
+    <!-- Height of the media element in quick settings (portrait) -->
+    <dimen name="qs_media_session_height_expanded">166dp</dimen>
 </resources>
