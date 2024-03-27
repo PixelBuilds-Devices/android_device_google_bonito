@@ -830,6 +830,10 @@ PRODUCT_PRODUCT_PROPERTIES += \
 PRODUCT_DEFAULT_PROPERTY_OVERRIDES += \
     ro.surface_flinger.max_frame_buffer_acquired_buffers=3
 
+# Configure renderengine backend
+PRODUCT_PRODUCT_PROPERTIES += \
+    debug.renderengine.backend=skiavkthreaded
+
 # Do not skip init trigger by default
 PRODUCT_DEFAULT_PROPERTY_OVERRIDES += \
     vendor.skip.init=0
