@@ -23,9 +23,6 @@ ifneq ($(PRODUCT_USE_DYNAMIC_PARTITIONS), true)
 endif
 BOARD_VENDORIMAGE_FILE_SYSTEM_TYPE := ext4
 
-# Verified Boot
-BOARD_AVB_MAKE_VBMETA_IMAGE_ARGS += --flags 3
-
 # SELinux
 BOARD_SEPOLICY_DIRS += device/google/bonito/sepolicy-custom/dynamic
 BOARD_SEPOLICY_DIRS += device/google/bonito/sepolicy-custom/vendor
